@@ -3,6 +3,29 @@ import './knuckleBonesStyles.css'
 // Notes
 // Player Two- Maybe make a random name generator or 
 export default function KnuckleBones () {
+
+    class Game {
+        constructor(set) {
+            this.title = set.title 
+        }
+
+        shoutOut () {
+            console.log(this.title)
+        }
+    }
+    
+    const dahBaby = new Game({
+        title: 'DahBaby'
+    })
+
+    const VideoGame = (set) => {
+        return (
+            <div>
+                <h1>{set.title}</h1>
+            </div>
+        )
+    }
+
     return (
         <main className='knuckleBones' >
             <h1 className='title' >Welcome to KnuckleBones</h1>
@@ -36,6 +59,7 @@ export default function KnuckleBones () {
 
                     <div className='playerTwo' >
                         <h1>Player Two</h1>
+                        {VideoGame(dahBaby)}
                     </div>
                 </section>
             </div>

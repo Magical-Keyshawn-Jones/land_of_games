@@ -2,6 +2,8 @@ import './App.css';
 import { KnuckleBones, HomePage } from './Storage/appExports'
 import { Link, Routes, Route } from 'react-router-dom'
 
+// Games I want to make
+// TicTacTo, 
 function App() {
   return (
     <main>

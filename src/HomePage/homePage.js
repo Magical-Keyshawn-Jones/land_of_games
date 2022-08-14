@@ -1,9 +1,9 @@
-
+import './homePageStyles.css'
 
 export default function HomePage () {
     return (
-        <div>
+        <main className='homePage' >
             <h1>List of Games</h1>
-        </div>
+        </main>
     )
 }

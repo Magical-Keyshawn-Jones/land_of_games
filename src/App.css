@@ -44,14 +44,16 @@ table {
 /* //////////////////// */
 
 main {
-	/* background: linear-gradient(to bottom,grey, lightblue, purple); */
 	height: 100rem;
 }
 
 header {
 	display: flex;
+	position: relative;
+	z-index: 1;
 	flex-direction: column;
 	background: linear-gradient(to top, black, rgb(68, 186, 255));
+	box-shadow: 0 0 1rem 0 ;
 }
 
 header h1 {

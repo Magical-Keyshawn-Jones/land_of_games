@@ -21,6 +21,8 @@ export default function KnuckleBones () {
                     </ul>
                 </section>
 
+                <div className='lineBorder' ></div>
+
                 <section className='game' >
                     <h1>Insert Game here!</h1>
                 </section>

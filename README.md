@@ -9,3 +9,6 @@ Folders:
 
 *Application exports
 -Why? to keep things neat in the "App.js" import area  
+
+Notes: 
+-Logic: when writing logic think like a human. Think about *literally* every step to complete the task

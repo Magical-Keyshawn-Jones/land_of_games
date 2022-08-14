@@ -1,5 +1,7 @@
-import './KnuckleBonesStyles.css'
+import './knuckleBonesStyles.css'
 
+// Notes
+// Player Two- Maybe make a random name generator or 
 export default function KnuckleBones () {
     return (
         <main className='knuckleBones' >
@@ -23,8 +25,18 @@ export default function KnuckleBones () {
 
                 <div className='lineBorder' ></div>
 
-                <section className='game' >
-                    <h1>Insert Game here!</h1>
+                <section className='gameContainer' >
+                    <div className='playerOne' >
+                        <h1>Player One</h1>
+                    </div>
+
+                    <div className='game' >
+                        <h1>Insert Game here!</h1>
+                    </div>
+
+                    <div className='playerTwo' >
+                        <h1>Player Two</h1>
+                    </div>
                 </section>
             </div>
 

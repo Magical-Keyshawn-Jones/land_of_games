@@ -1,4 +1,5 @@
 import './App.css';
+import './KnuckleBones/knuckleBonesStyles.css'
 
 import { KnuckleBones, HomePage } from './Storage/appExports'
 import { Link, Routes, Route } from 'react-router-dom'

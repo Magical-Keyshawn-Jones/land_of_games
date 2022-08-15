@@ -1,4 +1,3 @@
-import './knuckleBonesStyles.css'
 
 // Notes
 // Player Two- Maybe make a random name generator or 
